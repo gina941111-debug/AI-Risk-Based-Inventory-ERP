@@ -92,13 +92,15 @@ SQLite Database
 # 專案結構
 AI-ERP-System
 │
-├─ app.py
-├─ frontend
-├─ backend
-├─ data
-│ └─ erp.db
-└─ README.md
-
+├── app.py
+├── frontend
+│
+├── backend
+│
+├── data
+│ └── erp.db
+│
+└── README.md
 
 ---
 
