@@ -94,12 +94,19 @@ AI 助理可協助：
 
 本系統使用以下技術：
 
--核心程式語言：全面採用 Python 進行底層邏輯開發。
--Web 應用框架與互動套件：使用 Streamlit 框架實現快速的數據視覺化，並導入 streamlit-mic-recorder 語音-轉文字（Speech-to-Text）組件，支援跨瀏覽器的即時語音捕捉能力。
--人工智慧模型引擎：介接 Google Gemini API，利用其優異的語義理解與函式調用（Function Calling）能力驅動核心邏輯。
--外部資料來源：串接 GNews API，獲取全球即時新聞作為風險預警的資訊基底。
--核心資料庫系統：選用 SQLite 作為結構化數據的絕對儲存中心，確保交易紀錄的 ACID 特性與存取效率。
--資料視覺化套件：整合 Plotly 與 Matplotlib 庫，將抽象數據轉化為直觀圖表。
+Python：系統主要開發語言，負責核心邏輯與資料處理。
+
+Streamlit：建立 Web 應用介面與互動式資料視覺化。
+
+Google Gemini API：提供 AI 語意理解與 Function Calling 能力。
+
+SQLite：作為系統的結構化資料庫，儲存營運數據。
+
+GNews API：取得全球新聞資料，用於供應鏈風險監測。
+
+Plotly / Matplotlib：將數據轉換為視覺化圖表。
+
+streamlit-mic-recorder：提供語音輸入與語音辨識功能。
 
 ---
 
