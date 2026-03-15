@@ -142,14 +142,7 @@ AI-Risk-Based-Inventory-ERP
 
 # 系統畫面
 
-（可以在這裡放系統截圖）
-
-例如：
-
-- ERP Dashboard
-- Inventory Management
-- AI Risk Analysis
-
+![system](ai.PNG)
 ---
 
 # 未來發展
