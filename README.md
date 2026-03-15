@@ -141,8 +141,8 @@ AI-Risk-Based-Inventory-ERP
 ---
 
 # 系統畫面
+![system](ai.png)
 
-![system](ai.PNG)
 ---
 
 # 未來發展
