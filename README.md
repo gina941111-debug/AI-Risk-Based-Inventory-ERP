@@ -89,7 +89,9 @@ SQLite Database
 
 ---
 
-# 專案結構
+## 專案結構
+
+```
 AI-ERP-System
 │
 ├── app.py
@@ -98,10 +100,10 @@ AI-ERP-System
 ├── backend
 │
 ├── data
-│ └── erp.db
+│   └── erp.db
 │
 └── README.md
-
+```
 ---
 
 # 未來發展
