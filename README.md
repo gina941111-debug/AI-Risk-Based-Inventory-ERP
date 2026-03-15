@@ -1,15 +1,46 @@
-# AI-Risk-Based-Inventory-ERP
-An AI-powered ERP system for smart inventory management and risk prediction.
-# AI-Risk-Based-Inventory-ERP
-An AI-powered ERP system for smart inventory management and risk prediction.
-# AI 智慧企業資源管理系統（AI ERP System）
+# AI Risk-Based Inventory ERP System
+AI 風險導向智慧庫存 ERP 系統
 
-本專案為一個結合 **人工智慧（AI）與 ERP 系統** 的智慧企業管理平台，
+本專案為一個結合 **人工智慧 (AI)** 與 **企業資源管理系統 (ERP)** 的智慧管理平台，
 透過分析企業營運資料、庫存資訊與供應鏈風險，
-協助企業做出更精準的決策。
+協助企業進行 **智慧決策、庫存管理與風險預測**。
 
-本系統整合 ERP 管理模組與 AI 分析能力，
-提供企業完整的營運管理與風險預測工具。
+本系統整合 ERP 管理模組、AI 風險分析與數據視覺化，
+提供企業完整的營運管理解決方案。
+
+---
+
+# 系統特色
+
+- AI 庫存風險分析
+- ERP 企業管理系統
+- 供應鏈風險監測
+- ESG 與碳排放管理
+- AI 智慧助理
+- 即時營運 Dashboard
+
+---
+
+# 系統架構
+
+```
+            ┌──────────────┐
+            │   AI Agent   │
+            │ Risk Analysis│
+            └──────┬───────┘
+                   │
+        ┌──────────▼──────────┐
+        │      ERP System     │
+        │ Inventory / Orders  │
+        │ Procurement / HR    │
+        │ Finance / ESG       │
+        └──────────┬──────────┘
+                   │
+             ┌─────▼─────┐
+             │ Database  │
+             │  SQLite   │
+             └───────────┘
+```
 
 ---
 
@@ -17,10 +48,10 @@ An AI-powered ERP system for smart inventory management and risk prediction.
 
 ## 1. ERP 管理系統
 
-本系統提供完整的企業資源管理功能：
+系統提供完整企業管理模組：
 
-- 庫存管理 (Inventory Management)
-- 訂單管理 (Order Management)
+- 庫存管理 (Inventory)
+- 訂單管理 (Orders)
 - 採購管理 (Procurement)
 - 人力資源管理 (HR)
 - 財務管理 (Finance)
@@ -30,50 +61,32 @@ An AI-powered ERP system for smart inventory management and risk prediction.
 
 ## 2. AI 供應鏈風險分析
 
-系統利用 AI 分析供應鏈相關資訊：
+透過 AI 技術分析供應鏈與市場資訊：
 
 - 供應鏈風險評估
 - 市場新聞分析
-- 風險預警系統
+- 風險預警
 - 決策建議
 
 ---
 
 ## 3. ESG 與碳排放管理
 
-系統整合 ESG 與碳排放分析：
+企業永續經營分析：
 
-- 碳排放監測
+- 碳排放監控
 - ESG 指標分析
-- 永續經營評估
+- 永續發展評估
 
 ---
 
 ## 4. AI 智慧助理
 
-透過 AI 助理協助企業管理者：
+AI 助理可協助：
 
-- 查詢企業營運資料
-- 分析企業數據
+- 查詢 ERP 資料
+- 分析企業營運狀況
 - 提供決策建議
-
----
-
-# 系統架構
-
-系統主要由三個部分組成：
-
-前端系統：
-Streamlit Dashboard
-
-後端系統：
-Python ERP Modules
-
-AI 模組：
-Supply Chain Risk Analysis + AI Assistant
-
-資料庫：
-SQLite Database
 
 ---
 
@@ -84,40 +97,72 @@ SQLite Database
 - Python
 - Streamlit
 - SQLite
-- AI Risk Analysis
 - Data Visualization
+- AI Risk Analysis
 
 ---
 
-## 專案結構
+# 專案結構
 
 ```
-AI-ERP-System
+AI-Risk-Based-Inventory-ERP
 │
 ├── app.py
+│
 ├── frontend
+│   ├── page_dashboard.py
+│   ├── page_inventory.py
+│   ├── page_sales.py
+│   ├── page_procurement.py
+│   ├── page_hr.py
+│   ├── page_finance.py
+│   ├── page_carbon.py
+│   ├── page_esg.py
+│   └── page_ai_assistant.py
 │
 ├── backend
+│   ├── database.py
+│   ├── inventory.py
+│   ├── orders.py
+│   ├── procurement.py
+│   ├── hr.py
+│   ├── finance.py
+│   ├── manufacturing.py
+│   ├── supply_chain_risk.py
+│   └── supply_chain_news.py
 │
 ├── data
 │   └── erp.db
 │
 └── README.md
 ```
+
+---
+
+# 系統畫面
+
+（可以在這裡放系統截圖）
+
+例如：
+
+- ERP Dashboard
+- Inventory Management
+- AI Risk Analysis
+
 ---
 
 # 未來發展
 
 未來可擴展：
 
-- 結合line bot
 - AI 需求預測
 - 自動補貨系統
-- 更多供應鏈風險模型
+- AI 供應鏈預測模型
 - ERP SaaS 平台
+- LINE Bot 整合
 
 ---
 
 # 專案作者
 
-本專案為經濟部智慧創新大賞競賽作品，由團隊共同開發完成。
+本專案為競賽作品，由團隊共同開發完成。
